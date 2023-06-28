@@ -1,0 +1,117 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: rgb(80, 80, 80);
+}
+.fondo {
+    position: fixed;
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+header{
+    padding: 2px;
+    background-color: #92492c;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+}
+nav {
+    margin-top: 150px;
+    padding: 50px;
+    background-color: #b19760;
+    float: left;
+}
+
+nav > ul {
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+nav > ul >.indices{
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+}
+.indice > a{
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+.indice >a:hover {
+    text-decoration: none;
+    border-bottom: 3px #ffffff solid;
+    transition: .1s;
+}
+
+.icono{
+    width: 50px;
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin: 50px;
+}
+.campos{
+    margin: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.formulario{
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.area{
+    text-align: center;
+    color: #ffffff;
+}
+.nombre{
+    text-align: center;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+    width: 20vw;
+    max-width: 200px; 
+}
+
+.campos > div > p {
+    color: #ffffff;
+}
